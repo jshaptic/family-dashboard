@@ -1,9 +1,12 @@
 {
   "name": "family-dashboard",
-  "version": "1.0.0",
   "description": "Family portal to share photos and videos, events, useful information and some other important data",
+  "version": "1.0.0",
   "author": "jshaptic",
-  "private": true,
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
